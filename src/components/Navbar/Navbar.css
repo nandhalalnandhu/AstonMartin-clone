@@ -1,0 +1,144 @@
+nav {
+    width: 100%;
+    height: 70px;
+    /* background-color: rgba(0, 0, 0, 0.59); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar {
+    /* background-color: red; */
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar button {
+
+    background-color: transparent;
+    border: 1px solid transparent;
+
+
+}
+
+.offcanvas-body {
+    position: relative;
+
+
+}
+
+
+.sidebar button:hover {
+    background-color: transparent;
+    border: 0px solid green;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+#option-btn {
+    background: none;
+    border: none;
+}
+
+#offcanvasScrolling {
+    background: rgba(0, 0, 0, 0.681);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 70px;
+    /* background-color: red; */
+}
+
+.logo img {
+    width: 280px;
+    padding-left: 120px;
+}
+
+.enquire {
+    /* background-color: red; */
+    width: 180px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.enquire button {
+
+    color: white;
+    width: 90px;
+    height: 40px;
+    background: rgba(182, 174, 174, 0.2);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(182, 174, 174, 0.3);
+
+}
+
+.offf-main {
+    background: rgba(0, 0, 0, 0.55);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+}
+
+.ooff-bodyy {
+    color: white;
+}
+
+.btn-close{
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 254, 254);
+}
+
+.ooff-bodyy h4 {
+    margin-bottom: 25px;
+    /* Adjust the gap between h4 elements */
+}
+.btn-primary:focus{
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-close {
+    color: azure;
+}
+
+@media (max-width: 750px) {
+    .enquire {
+        display: none;
+    }
+
+    .logo img {
+        width: 170px;
+        padding-left: 10px;
+    }
+
+    .logo {
+        margin-right: 45px;
+    }
+}

@@ -1,0 +1,250 @@
+#carosel-innr {
+    height: 100vh;
+}
+
+#coont video {
+    position: absolute;
+}
+
+.content {
+    position: relative;
+    top: 220px;
+    left: 85px;
+    /* background-color: aqua; */
+}
+
+.content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    /* font-family: "AstonMartinFlare"; */
+    line-height: 70px;
+
+}
+
+.content button {
+    border: none;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: rgb(12, 77, 12);
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#coontt video {
+
+    position: absolute;
+    object-fit: contain;
+
+}
+
+.contentt {
+    position: relative;
+    top: 320px;
+    left: 85px;
+    /* background-color: aqua; */
+
+}
+
+.contentt span {
+    color: white;
+    font-size: 20px;
+}
+
+.contentt h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    /* font-family: "AstonMartinFlare"; */
+    line-height: 70px;
+
+}
+
+.contenttt {
+    position: relative;
+    top: 320px;
+    left: 85px;
+}
+
+.contenttt span {
+    color: white;
+    font-size: 20px;
+}
+
+.contenttt h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    /* font-family: "AstonMartinFlare"; */
+    line-height: 70px;
+
+}
+
+.allbtn {
+
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allbtnn {
+    /* background-color: red; */
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btx {
+    border: none;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: rgb(12, 77, 12);
+
+}
+
+.btxx {
+    border: none;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: rgb(12, 77, 12);
+
+}
+
+.btnn {
+    border: none;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(90, 89, 89, 0.823);
+
+
+}
+
+
+@media (max-width: 750px) {
+
+    .content {
+        position: relative;
+        top: 56vh;
+        left: 6%;
+    }
+
+    .content h1 {
+        color: white;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 40px;
+
+    }
+
+    .content button {
+        border: none;
+        width: 88%;
+        padding: 15px 25px;
+        font-weight: 500;
+        border-radius: 2px;
+        color: rgb(12, 77, 12);
+    }
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++ */
+
+    .contentt {
+        position: relative;
+        top: 55vh;
+        left: 6%;
+    }
+
+    .contentt span {
+        color: white;
+        font-size: 15px;
+    }
+
+    .contentt h1 {
+        color: white;
+        font-size: 23px;
+        font-weight: 600;
+        /* font-family: "AstonMartinFlare"; */
+        line-height: 40px;
+
+    }
+
+    .allbtn {
+        /* background-color: red; */
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btx {
+        width: 96%;
+        border: none;
+        padding: 15px 25px;
+        font-weight: 500;
+        border-radius: 2px;
+        color: rgb(12, 77, 12);
+
+    }
+
+    .btnn {
+        border: none;
+        width: 96%;
+        padding: 15px 25px;
+        font-weight: 500;
+        border-radius: 2px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(90, 89, 89, 0.823);
+
+    }
+
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    .contenttt {
+        position: relative;
+        top: 55vh;
+        left: 6%;
+    }
+
+    .contenttt span {
+        color: white;
+        font-size: 15px;
+    }
+
+    .contenttt h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+        /* font-family: "AstonMartinFlare"; */
+        line-height: 40px;
+
+    }
+
+    .allbtnn {
+        /* background-color: red; */
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btxx {
+        border: none;
+        width: 96%;
+        padding: 15px 25px;
+        font-weight: 500;
+        border-radius: 2px;
+        color: rgb(12, 77, 12);
+
+    }
+}

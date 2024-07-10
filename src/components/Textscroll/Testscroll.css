@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.Testscroll {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../Assets/astonbk.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+
+
+.text {
+    color: rgba(140, 139, 139, 0.334);
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+   
+
+}
+
+.auth {
+    color: rgb(204, 204, 204);
+    width: 80%;
+    padding-top: 80px;
+    font-size: 25px;
+    font-family: 600;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+
+.auth div {
+    width: 45px;
+    height: 2px;
+    background-color: rgb(204, 204, 204);
+
+}
+
+/* .text {
+    position: fixed;
+    top: 10px;
+} */
+
+.highlight {
+    color: rgb(242, 242, 242);
+}
+
+@media (max-width: 750px) {
+
+    .Testscroll {
+        padding: 30px;
+        height: 500px;
+    }
+
+    .text {
+        color: rgba(196, 191, 191, 0.64);
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    .auth {
+        padding-top: 30px;
+        width: 100%;
+        /* background-color: red; */
+        font-size: 15px;
+
+    }
+}
